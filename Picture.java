@@ -16,6 +16,8 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Square cesped;
+    private Circle atardecer;
+    
     /**
      * Constructor for objects of class Picture
      */
@@ -69,7 +71,15 @@ public class Picture
         cesped.moveVertical(130);
         cesped.changeSize(505);
         cesped.makeVisible();
-        sun.slowMoveVertical(10);
+        sun.slowMoveVertical(-100);
+        sun.slowMoveVertical(100);
+        
+        
+        
+        
+        
+        
+        
         
         
     
