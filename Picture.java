@@ -117,7 +117,7 @@ public class Picture
     }
     
     public void  atardecer(){
-        sun.slowMoveVertical(-100);
+        sun.slowMoveVertical(100);
         
     }
     
