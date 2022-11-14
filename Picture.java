@@ -16,7 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Square cesped;
-    private Circle atardecer;
+ 
     
     /**
      * Constructor for objects of class Picture
@@ -115,4 +115,24 @@ public class Picture
             sun.changeColor("yellow");
         }    
     }
+    
+    public void  atardecer(){
+        sun.slowMoveVertical(-100);
+        
+    }
+    
+    
+    
+    
+    
 }
+    /**
+     * Change this picture to SlowmoveVertical
+     */
+
+
+
+
+
+
+     
