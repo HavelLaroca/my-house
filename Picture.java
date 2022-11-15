@@ -118,6 +118,32 @@ public class Picture
     
     public void  atardecer(){
         sun.slowMoveVertical(100);
+        Person person1 = new Person();
+        person1.makeVisible();
+        person1.moveHorizontal(-200);
+        person1.slowMoveHorizontal(70);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
     }
     
